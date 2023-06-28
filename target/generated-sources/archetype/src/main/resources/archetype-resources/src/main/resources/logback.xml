@@ -1,0 +1,15 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- 暂时使用网络加载，目前没有找到加载依赖jar里面logback.xml路径写法-->
+    <include url="https://gitlab.yuntron.org/config/logback/-/raw/main/logback.xml" />
+
+<!--    <include resource="com/flint/parent/logback-main.xml" />-->
+<!--    <include resource="classpath:com/flint/parent/logback-main.xml" />-->
+<!--    <include resource="com/flint/parent/${version}/parent-${version}.jar!/logback-main.xml" />-->
+<!--    <include resource="classpath:com/flint/parent/${version}/parent-${version}.jar!/logback-main.xml" />-->
+<!--    <include resource="classpath:com.flint.parent/logback-main.xml" />-->
+<!--    <include file="/Users/dushiling/.m2/repository/com/flint/parent/${version}/parent-${version}.jar!/logback-main.xml" />-->
+</configuration>

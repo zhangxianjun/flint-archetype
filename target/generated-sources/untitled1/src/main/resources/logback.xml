@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- 暂时使用网络加载，目前没有找到加载依赖jar里面logback.xml路径写法-->
+    <include url="https://gitlab.yuntron.org/config/logback/-/raw/main/logback.xml" />
+
+<!--    <include resource="com/flint/parent/logback-main.xml" />-->
+<!--    <include resource="classpath:com/flint/parent/logback-main.xml" />-->
+<!--    <include resource="com/flint/parent/1.0-SNAPSHOT/parent-1.0-SNAPSHOT.jar!/logback-main.xml" />-->
+<!--    <include resource="classpath:com/flint/parent/1.0-SNAPSHOT/parent-1.0-SNAPSHOT.jar!/logback-main.xml" />-->
+<!--    <include resource="classpath:com.flint.parent/logback-main.xml" />-->
+<!--    <include file="/Users/dushiling/.m2/repository/com/flint/parent/1.0-SNAPSHOT/parent-1.0-SNAPSHOT.jar!/logback-main.xml" />-->
+</configuration>
